@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;  
+}
+
+@font-face {
+    font-family: 'daft_font';
+    src: url('dafter_harder_better_stronger__by_duncan_wick-webfont.woff2') format('woff2'),
+         url('dafter_harder_better_stronger__by_duncan_wick-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: 'daft_font';
+    color: white;
+    
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+}
+header {
+    height: 10vh;
+    width: 100vw;
+
+
+    font-size: 16vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.back {
+    height: 85vh;
+    width: 85vh;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.pad {
+    height: 40.5vh;
+    width: 40.5vh;
+    margin: 1vh;
+    border-radius: 100% 7px 7px 7px;
+    opacity: 0.3;
+}
+
+.shape1 {
+    background-color: rgb(252, 57, 235);
+    
+}
+
+.shape2 {
+    background-color: rgb(52, 225, 255);
+    transform: rotate(90deg);
+}
+
+
+.shape3 {
+    background-color: rgb(126, 255, 75);
+    transform: rotate(270deg);
+    
+}
+
+
+.shape4 {
+    background-color: rgb(255, 255, 72);
+    transform: rotate(180deg);
+}
+
+.circle {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 35vh;
+    left: calc(50vw - 17.5vh);
+    background-color: black;
+    font-size: 8vh;
+   
+  }
+  
+
